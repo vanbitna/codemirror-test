@@ -12,6 +12,12 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "baseUrl": ".",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "typeRoots": ["./types"],
+    "declaration": true,
+    "declarationDir": "./types",
     "types": [
       "webpack-env"
     ],
