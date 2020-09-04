@@ -1,4 +1,5 @@
 {
+  "compileOnSave": true,
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
@@ -15,16 +16,14 @@
     "noImplicitAny": true,
     "noImplicitThis": true,
     "noImplicitReturns": true,
-    "typeRoots": ["./types"],
-    "declaration": true,
-    "declarationDir": "./types",
     "types": [
       "webpack-env"
     ],
     "paths": {
       "@/*": [
         "src/*"
-      ]
+      ],
+      "vue-codemirror": ["./@types/vue-codemirror/index.d.ts"]
     },
     "lib": [
       "esnext",
